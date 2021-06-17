@@ -1,15 +1,104 @@
 h1  {
     color:#46484c;
+    text-align: center;
 }
 
 h2{
     color: #8b8b8bcc;
+
 }
 
+
+
 button{
-    color: #fff; background-color: #025157;
+    color: #ffff; background-color: #67b54b;
+    padding: 14px 12px 14px 12px;
+    border-radius: 5px;
+
+
 }
 
 html{
-    background-color: #fffbf7;
+    background-color: #ffffff;
 }
+
+/* la estrellita le pone el formato a todo dentro del header */
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+    font-family:sans-serif ;
+    margin: 0px 25px 0 25px;
+    text-emphasis-color: #025157;
+    
+
+}
+
+/* le pones font size 0 para matar espacios, y se compone con font size en el header especifico  */
+.header {
+    /*margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;*/
+    margin: 40px 0px 20px 20px;
+    font-size: 0%;
+  }
+
+
+  /* es la lista, para que todo este en forma de row */
+  li {
+      display: inline;
+  }
+
+  .navbar
+  {
+    width: 70%;
+    text-align: left;
+    color:#025157 ;
+  }
+
+  li {
+    display: inline;
+    
+  }
+  
+  
+  .logo {
+    width: 100%;
+    
+  }
+  
+  /* .actions {
+    width: 15%;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10px;
+
+
+  } */
+
+  /*lo correcto*/
+  .actions {
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+  }
+  
+  .actions > * {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .actions a {
+    color: #67b54b;
+  }
+  
+
+  
+  .sign_in
+  {
+      color:#67b54b;
+  }
+
