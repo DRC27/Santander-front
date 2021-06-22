@@ -102,3 +102,13 @@ html{
       color:#67b54b;
   }
 
+  /* con esto se usa el flex container */
+  .promo{
+    display: flex;
+    width: 70%;
+    margin: 100px;
+    gap: 10px;
+    align-items: center;
+  }
+
+
